@@ -8,8 +8,6 @@ def callback(xk, state):
     cost = objective(xk)
     cost_history.append(cost)
 
-
-# 参数
 d_i = 325        
 eta = 3.0         
 b = 83.3          
@@ -32,7 +30,6 @@ D = 17233
 A = 86
 
 
-# Emission factor as function of x
 def f_x(x):
     return 0.5 * (1 - x)
 
